@@ -18,6 +18,7 @@ a{
 }
 .material-symbols-outlined {
   color: white;
+  cursor: pointer;
 }
 .container{
   display: grid;
@@ -246,7 +247,7 @@ header{
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
   transition: ease 0.2s;
-  
+  cursor: pointer;
 }
 
 .card-item:hover{
@@ -287,6 +288,7 @@ header{
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.349);
+  cursor: pointer;
 }
 
 .ann-item{
@@ -328,6 +330,7 @@ margin: 20px 0px 0px 0px;
   "image name"
   "image description";
   row-gap: 4px;
+  cursor: pointer;
 }
 
 .account img{
